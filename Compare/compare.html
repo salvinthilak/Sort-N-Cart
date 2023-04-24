@@ -1,0 +1,1012 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sort N Cart</title>
+    <meta
+      name="description"
+      content="This is a new app developed by Salvin Thilak S, Shaik Mushrath Sulthana and Swapna Vemula" />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/bin/css/swiper-bundle.min.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <div class="compare">
+      <div class="navigation-bar">
+        <div class="container-nav">
+          <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </div>
+          <div class="navbar">
+            <ul>
+              <li class="list">
+                <a href="/Home-page.html">
+                  <span class="icon"><i class="bx bx-home"></i></span>
+                  <span class="text">Home</span>
+                </a>
+              </li>
+              <li class="list active">
+                <a href="#">
+                  <span class="icon"><i class="bx bx-copy-alt"></i></span>
+                  <span class="text">Compare</span>
+                </a>
+              </li>
+              <li class="list">
+                <a href="/Sort N Cart/sort-n-cart.html">
+                  <span class="icon"><i class="bx bx-cart-alt"></i></span>
+                  <span class="text">Sort N Cart</span>
+                </a>
+              </li>
+              <li class="list">
+                <a href="/Wishlist/wishlist.html">
+                  <span class="icon"><i class="bx bx-heart"></i></span>
+                  <span class="text">Wishlist</span>
+                </a>
+              </li>
+              <li class="list">
+                <a href="/Login/login.html">
+                  <span class="icon"><i class="bx bx-log-in"></i></span>
+                  <span class="text">Login</span>
+                </a>
+              </li>
+              <div class="indicator"></div>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="compare-body">
+        <div class="compare-outline">
+          <div class="empty-order-wrapper" id="empty-wrapper">
+            <div class="cart-empty" style="height: 500px">
+              <div class="cart-empty-media">
+                <img
+                  class="img-fluid"
+                  src="/image/png/empty-compare.png"
+                  alt=""
+                  style="height: 150px" />
+              </div>
+              <div class="cart-empty-info">
+                <h5>You have not chosen anything to compare</h5>
+                <p>
+                  Save gadgets that you like in and compare it with you other
+                  favourites
+                </p>
+              </div>
+              <a
+                class="btn-dark-custom btn-dark-custom__empty"
+                href="/Home-page.html"
+                >Start Shopping Now</a
+              >
+            </div>
+            <div class="scrolling-products spacing-block">
+              <div class="l-scroll-products">
+                <div class="slide-container">
+                  <div class="card-wrapper swiper-wrapper">
+                    <div class="card swiper-slide">
+                      <div>
+                        <li class="indivi-product">
+                          <div class="l-product">
+                            <button class="product-wishlist">
+                              <svg
+                                width="25"
+                                height="20"
+                                viewBox="0 0 24 24"
+                                style="fill: currentcolor">
+                                <path
+                                  d="M12 4.595a5.904 5.904 0 0 0-3.996-1.558 5.942 5.942 0 0 0-4.213 1.758c-2.353 2.363-2.352 6.059.002 8.412l7.332 7.332c.17.299.498.492.875.492a.99.99 0 0 0 .792-.409l7.415-7.415c2.354-2.354 2.354-6.049-.002-8.416a5.938 5.938 0 0 0-4.209-1.754A5.906 5.906 0 0 0 12 4.595zm6.791 1.61c1.563 1.571 1.564 4.025.002 5.588L12 18.586l-6.793-6.793c-1.562-1.563-1.561-4.017-.002-5.584.76-.756 1.754-1.172 2.799-1.172s2.035.416 2.789 1.17l.5.5a.999.999 0 0 0 1.414 0l.5-.5c1.512-1.509 4.074-1.505 5.584-.002z"></path>
+                              </svg>
+                            </button>
+                            <a href="/products/iPhone-14-Pro-Max.html">
+                              <div
+                                class="l-product-img d-flex justify-content-center">
+                                <img
+                                  src="/image/product/pro-img/iphone 14pro/1.jpg"
+                                  alt="iPhone 14 256GB Purple - Apple" />
+                              </div>
+                            </a>
+                            <div class="l-product-content col col-7-12">
+                              <div class="p-product-name">
+                                iPhone 14 Pro Max 512GB Purple - Apple
+                              </div>
+                              <div class="flexible"></div>
+                              <div
+                                class="l-product-price p-price-tag col col-5-12">
+                                <div class="price-block">
+                                  <div class="old-new-price">
+                                    <div class="new-price">₹1,68,000</div>
+                                    <div class="old-price">₹1,89,000</div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <button
+                              class="add-compare w-100 mb-1"
+                              id="wishlist-now">
+                              <span class="ml-1">+ Compare</span>
+                            </button>
+                          </div>
+                        </li>
+                      </div>
+                    </div>
+                    <div class="card swiper-slide">
+                      <div>
+                        <li class="indivi-product">
+                          <div class="l-product">
+                            <button class="product-wishlist">
+                              <svg
+                                width="25"
+                                height="20"
+                                viewBox="0 0 24 24"
+                                style="fill: currentcolor">
+                                <path
+                                  d="M12 4.595a5.904 5.904 0 0 0-3.996-1.558 5.942 5.942 0 0 0-4.213 1.758c-2.353 2.363-2.352 6.059.002 8.412l7.332 7.332c.17.299.498.492.875.492a.99.99 0 0 0 .792-.409l7.415-7.415c2.354-2.354 2.354-6.049-.002-8.416a5.938 5.938 0 0 0-4.209-1.754A5.906 5.906 0 0 0 12 4.595zm6.791 1.61c1.563 1.571 1.564 4.025.002 5.588L12 18.586l-6.793-6.793c-1.562-1.563-1.561-4.017-.002-5.584.76-.756 1.754-1.172 2.799-1.172s2.035.416 2.789 1.17l.5.5a.999.999 0 0 0 1.414 0l.5-.5c1.512-1.509 4.074-1.505 5.584-.002z"></path>
+                              </svg>
+                            </button>
+                            <a href="/products/iPhone-14-Pro-Max.html">
+                              <div
+                                class="l-product-img d-flex justify-content-center">
+                                <img
+                                  src="/image/product/pro-img/iphone 14pro/1.jpg"
+                                  alt="iPhone 14 256GB Purple - Apple" />
+                              </div>
+                            </a>
+                            <div class="l-product-content col col-7-12">
+                              <div class="p-product-name">
+                                iPhone 14 Pro Max 512GB Purple - Apple
+                              </div>
+                              <div class="flexible"></div>
+                              <div
+                                class="l-product-price p-price-tag col col-5-12">
+                                <div class="price-block">
+                                  <div class="old-new-price">
+                                    <div class="new-price">₹1,68,000</div>
+                                    <div class="old-price">₹1,89,000</div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <button
+                              class="add-compare w-100 mb-1"
+                              id="wishlist-now">
+                              <span class="ml-1">+ Compare</span>
+                            </button>
+                          </div>
+                        </li>
+                      </div>
+                    </div>
+                    <div class="card swiper-slide">
+                      <div>
+                        <li class="indivi-product">
+                          <div class="l-product">
+                            <button class="product-wishlist">
+                              <svg
+                                width="25"
+                                height="20"
+                                viewBox="0 0 24 24"
+                                style="fill: currentcolor">
+                                <path
+                                  d="M12 4.595a5.904 5.904 0 0 0-3.996-1.558 5.942 5.942 0 0 0-4.213 1.758c-2.353 2.363-2.352 6.059.002 8.412l7.332 7.332c.17.299.498.492.875.492a.99.99 0 0 0 .792-.409l7.415-7.415c2.354-2.354 2.354-6.049-.002-8.416a5.938 5.938 0 0 0-4.209-1.754A5.906 5.906 0 0 0 12 4.595zm6.791 1.61c1.563 1.571 1.564 4.025.002 5.588L12 18.586l-6.793-6.793c-1.562-1.563-1.561-4.017-.002-5.584.76-.756 1.754-1.172 2.799-1.172s2.035.416 2.789 1.17l.5.5a.999.999 0 0 0 1.414 0l.5-.5c1.512-1.509 4.074-1.505 5.584-.002z"></path>
+                              </svg>
+                            </button>
+                            <a href="/products/iphone-13.html">
+                              <div
+                                class="l-product-img d-flex justify-content-center">
+                                <img
+                                  src="/image/product/pro-img/iphone 13/1.jpg"
+                                  alt="iPhone 14 256GB Purple - Apple" />
+                              </div>
+                            </a>
+                            <div class="l-product-content col col-7-12">
+                              <div class="p-product-name">
+                                iPhone 13 512GB Purple - Apple
+                              </div>
+                              <div class="flexible"></div>
+                              <div
+                                class="l-product-price p-price-tag col col-5-12">
+                                <div class="price-block">
+                                  <div class="old-new-price">
+                                    <div class="new-price">₹63,000</div>
+                                    <div class="old-price">₹1,23,000</div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <button
+                              class="add-compare w-100 mb-1"
+                              id="wishlist-now">
+                              <span class="ml-1">+ Compare</span>
+                            </button>
+                          </div>
+                        </li>
+                      </div>
+                    </div>
+                    <div class="card swiper-slide">
+                      <div>
+                        <li class="indivi-product">
+                          <div class="l-product">
+                            <button class="product-wishlist">
+                              <svg
+                                width="25"
+                                height="20"
+                                viewBox="0 0 24 24"
+                                style="fill: currentcolor">
+                                <path
+                                  d="M12 4.595a5.904 5.904 0 0 0-3.996-1.558 5.942 5.942 0 0 0-4.213 1.758c-2.353 2.363-2.352 6.059.002 8.412l7.332 7.332c.17.299.498.492.875.492a.99.99 0 0 0 .792-.409l7.415-7.415c2.354-2.354 2.354-6.049-.002-8.416a5.938 5.938 0 0 0-4.209-1.754A5.906 5.906 0 0 0 12 4.595zm6.791 1.61c1.563 1.571 1.564 4.025.002 5.588L12 18.586l-6.793-6.793c-1.562-1.563-1.561-4.017-.002-5.584.76-.756 1.754-1.172 2.799-1.172s2.035.416 2.789 1.17l.5.5a.999.999 0 0 0 1.414 0l.5-.5c1.512-1.509 4.074-1.505 5.584-.002z"></path>
+                              </svg>
+                            </button>
+                            <a href="/products/pixel-7.html">
+                              <div
+                                class="l-product-img d-flex justify-content-center">
+                                <img
+                                  src="/image/product/pro-img/pixel 7/1.jpeg"
+                                  alt="iPhone 14 256GB Purple - Apple" />
+                              </div>
+                            </a>
+                            <div class="l-product-content col col-7-12">
+                              <div class="p-product-name">
+                                Pixel 7
+                              </div>
+                              <div class="flexible"></div>
+                              <div
+                                class="l-product-price p-price-tag col col-5-12">
+                                <div class="price-block">
+                                  <div class="old-new-price">
+                                    <div class="new-price">₹67,000</div>
+                                    <div class="old-price">₹89,000</div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <button
+                              class="add-compare w-100 mb-1"
+                              id="wishlist-now">
+                              <span class="ml-1">+ Compare</span>
+                            </button>
+                          </div>
+                        </li>
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div>
+                <div class="swiper-button-next swiper-navBtn"></div>
+                <div class="swiper-button-prev swiper-navBtn"></div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="not-empty-wrapper" id="not-empty-wrapper">
+            <div class="compare-all-products">
+              <div class="multi-products">
+                <div class="compare-pro" style="background: none">
+                  <div class="compare-pro-border">
+                    <div class="vertical-compare">
+                      <a href="#">
+                        <div class="product-img-panel">
+                          <div>
+                            <div
+                              class="pan-img"
+                              style="height: 200px; width: 200px"></div>
+                          </div>
+                        </div>
+                      </a>
+                      <div class="p-product-name">Product Name</div>
+                      <div class="product-details-panel-row">
+                        <div class="broken-rows">
+                          <div class="rating-tab">Rating</div>
+                          <div class="old-new-price-row">Price</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="border-divider"></div>
+                  <div class="vertical-compare">
+                    <div class="vertical-div" style="height: 300px">
+                      <div class="p-product-specs">
+                        <b>Product Specification</b>
+                      </div>
+                      <div>Highlights</div>
+                      <div style="margin-top: 200px">Seller's</div>
+                    </div>
+                  </div>
+                  <div class="border-divider"></div>
+                  <div class="vertical-compare">
+                    <div class="vertical-div">
+                      <div class="p-product-specs"><b>General Features</b></div>
+                      <div>Sim Type</div>
+                      <div>Network type</div>
+                      <div>Battery Capacity</div>
+                      <div style="margin-bottom: 70px">Sensors</div>
+                    </div>
+                  </div>
+                  <div class="border-divider"></div>
+                  <div class="vertical-compare">
+                    <div class="vertical-div">
+                      <div class="p-product-specs"><b>Performance</b></div>
+                      <div>OS</div>
+                      <div>Processor</div>
+                      <div class="p-needed">Ram</div>
+                      <div>Graphics</div>
+                    </div>
+                  </div>
+                  <div class="border-divider"></div>
+                  <div class="vertical-compare">
+                    <div class="vertical-div">
+                      <div class="p-product-specs"><b>Camera</b></div>
+                      <div>Primary Camera</div>
+                      <div>Front Camera</div>
+                      <div style="margin-bottom: 160px">Video Recording</div>
+                    </div>
+                  </div>
+                  <div class="border-divider"></div>
+                  <div class="vertical-compare">
+                    <div class="vertical-div">
+                      <div class="p-product-specs"><b>Display</b></div>
+                      <div>Resolution</div>
+                      <div style="margin-top: 30px; margin-bottom: 180px">
+                        Features
+                      </div>
+                    </div>
+                  </div>
+                  <div class="border-divider"></div>
+                  <div class="vertical-compare">
+                    <div class="vertical-div">
+                      <div class="p-product-specs"><b>Storage</b></div>
+                      <div>Internal Memory</div>
+                      <div>Expandable Memory</div>
+                    </div>
+                  </div>
+                  <div class="border-divider"></div>
+                  <div class="vertical-compare">
+                    <div class="vertical-div">
+                      <div class="p-product-specs"><b>Connectivity</b></div>
+                      <div>Wifi</div>
+                      <div>Bluetooth</div>
+                      <div>OTG</div>
+                    </div>
+                  </div>
+                  <div class="border-divider"></div>
+                  <div class="vertical-compare">
+                    <div style="height: 120px"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="three-compare">
+                <div class="multiple-products">
+                  <div class="compare-pro">
+                    <div class="compare-pro-border">
+                      <div class="vertical-compare">
+                        <button class="product-wishlist product-reject">
+                          <svg
+                            width="25"
+                            height="20"
+                            viewBox="0 0 24 24"
+                            style="fill: currentcolor">
+                            <path
+                              d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z"></path>
+                          </svg>
+                        </button>
+                        <a href="#">
+                          <div class="product-img-panel">
+                            <div>
+                              <div
+                                class="pan-img"
+                                style="height: 200px; width: 200px">
+                                <img
+                                  src="/image/product/pro-img/iphone 14pro/1.jpg"
+                                  alt="iPhone 14 Pro Max" />
+                              </div>
+                            </div>
+                          </div>
+                        </a>
+                        <div class="product-details-panel-row">
+                          <div class="broken-rows">
+                            <!-- Product Name -->
+                            <div class="p-product-name">iPhone 14 Pro Max</div>
+                            <!-- rating -->
+                            <div class="rating-tab">
+                              <p>4.7</p>
+                              <span
+                                ><i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star-half"></i>
+                              </span>
+                            </div>
+                            <!-- pricing -->
+                            <div class="price-block-row">
+                              <div class="old-new-price-row">
+                                <div class="new-price-row">₹1,68,000</div>
+                                <div class="old-price-row">₹1,89,000</div>
+                              </div>
+                            </div>
+                            <div class="border-divider"></div>
+                            <div
+                              class="p-product-specs"
+                              style="padding-top: 50px"></div>
+                            <!-- Product Specification -->
+                            <!-- Highlights -->
+                            <div>
+                              128 GB ROM 17.02 cm (6.7 inch) Super Retina XDR
+                              Display 48MP + 12MP + 12MP + 12MP | 12MP Front
+                              Camera A16 Bionic Chip, 6 Core Processor Processor
+                              Warranty: 1 Year Warranty for Phone and 6 Months
+                              Warranty for In-Box Accessories
+                            </div>
+
+                            <div
+                              style="
+                                padding-top: 20px;
+                                list-style: circle;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                              ">
+                              <!-- Seller's -->
+                              <li>Flipart</li>
+                              <li>Amazon</li>
+                              <li>Croma</li>
+                            </div>
+                            <div
+                              class="border-divider"
+                              style="margin-top: 5px"></div>
+                            <div
+                              class="p-product-specs"
+                              style="padding-top: 50px"></div>
+                            <!-- Sim Type -->
+                            <div>Nano Sim + eSIM</div>
+                            <!-- Network type -->
+                            <div class="p-needed">
+                              5G | 4G VoLTE | 4G | UMTS | GSM
+                            </div>
+                            <!-- Battery Capacity -->
+                            <div class="p-needed"></div>
+                            <!-- Sensors -->
+                            <div class="p-needed">
+                              Face ID, LiDAR Scanner, Barometer, High Dynamic
+                              Range Gyro, High-G Accelerometer, Proximity
+                              Sensor, Dual Ambient Light Sensors
+                            </div>
+                            <div
+                              class="border-divider"
+                              style="margin-top: 10px"></div>
+                            <div
+                              class="p-product-specs"
+                              style="padding-top: 50px"></div>
+                            <!-- OS -->
+                            <div>iOS 16</div>
+                            <!-- Processor -->
+                            <div class="p-needed">
+                              A16 Bionic Chip, 6 Core Processor 0 GHz
+                            </div>
+                            <!-- Ram -->
+                            <div style="margin-top: 40px"></div>
+                            <!-- Graphics -->
+                            <div>5 Core, 460</div>
+                            <div
+                              class="border-divider"
+                              style="margin-top: 40px"></div>
+                            <div
+                              class="p-product-specs"
+                              style="padding-top: 50px"></div>
+                            <!-- Primary Camera -->
+                            <div>48 MP</div>
+                            <!-- Front Camera -->
+                            <div class="p-needed">12 MP</div>
+                            <!-- Video Recording -->
+                            <div class="p-needed">
+                              Full HD, Rear Camera: 4K (at 24 fps/ 25 fps/ 30
+                              fps/ 60 fps), 2.8K (at 60 fps), 1080P (at 120
+                              fps/60 fps/30 fps/ 25 fps), 720P (at 30 fps) |
+                              Front Camera: 4K (at 24 fps/ 25 fps/ 30 fps/ 60
+                              fps), 1080P (at 120 fps/60 fps/30 fps/ 25 fps),
+                              240, 120, 60, 30, 25, 24fps
+                            </div>
+                            <div
+                              class="border-divider"
+                              style="margin-top: 10px"></div>
+                            <div
+                              class="p-product-specs"
+                              style="padding-top: 50px"></div>
+                            <!-- Display -->
+                            <!-- Resolution -->
+                            <div class="p-nedded">
+                              Super Retina XDR Display, 2796 x 1290 Pixels
+                            </div>
+                            <!-- Features -->
+                            <div class="p-needed">
+                              Dynamic Island, Always-On Display, Pro Motion
+                              Technology with Adaptive Refresh Rates Upto 120
+                              Hz, HDR Display, True Tone, Wide Colour (P3),
+                              Haptic Touch, Contrast Ratio: 20,00,000:1, Max
+                              Brightness: 1,000 nits, Peak Brightness: 1,600
+                              nits, Peak Brightness (Outdoor): 2,000 nits
+                            </div>
+                            <div
+                              class="border-divider"
+                              style="margin-top: 10px"></div>
+                            <div
+                              class="p-product-specs"
+                              style="padding-top: 50px"></div>
+                            <!-- Internal Memory -->
+                            <div>128 GB</div>
+                            <!-- Expandable Memory -->
+                            <div class="p-nedded p-needed">-</div>
+                            <div
+                              class="border-divider"
+                              style="margin-top: 40px"></div>
+                            <div
+                              class="p-product-specs"
+                              style="padding-top: 50px"></div>
+                            <!-- Wifi -->
+                            <div>WiFi 6 (802.11ax)</div>
+                            <!-- Bluetooth -->
+                            <div class="p-needed">Yes, vv5.3</div>
+                            <!-- OTG -->
+                            <div>Not OTG Compatible</div>
+                            <div
+                              class="border-divider"
+                              style="
+                                margin-top: 40px;
+                                margin-bottom: 40px;
+                              "></div>
+                            <a href="/Sort N Cart/cart.html" style="text-decoration: none">
+                              <div class="view-more-btn">
+                                <button>Add to Cart</button>
+                              </div>
+                            </a>
+                            <a href="/Sort N Cart/sort-n-cart.html" style="text-decoration: none">
+                              <div class="view-more-btn">
+                                <button>Add to Sort N Cart</button>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="multiple-products">
+                  <div class="compare-pro">
+                    <div class="compare-pro-border">
+                      <div class="vertical-compare">
+                        <button class="product-wishlist product-reject">
+                          <svg
+                            width="25"
+                            height="20"
+                            viewBox="0 0 24 24"
+                            style="fill: currentcolor">
+                            <path
+                              d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z"></path>
+                          </svg>
+                        </button>
+                        <a href="#">
+                          <div class="product-img-panel">
+                            <div>
+                              <div
+                                class="pan-img"
+                                style="height: 200px; width: 200px">
+                                <img
+                                  src="/image/product/pro-img/iphone 13/1.jpg"
+                                  alt="iPhone 14 Pro Max" />
+                              </div>
+                            </div>
+                          </div>
+                        </a>
+                        <div class="product-details-panel-row">
+                          <div class="broken-rows">
+                            <!-- Product Name -->
+                            <div class="p-product-name">iPhone 13</div>
+                            <!-- rating -->
+                            <div class="rating-tab">
+                              <p>4.7</p>
+                              <span
+                                ><i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star-half"></i>
+                              </span>
+                            </div>
+                            <!-- pricing -->
+                            <div class="price-block-row">
+                              <div class="old-new-price-row">
+                                <div class="new-price-row">₹68,000</div>
+                                <div class="old-price-row">₹1,89,000</div>
+                              </div>
+                            </div>
+                            <div class="border-divider"></div>
+                            <div
+                              class="p-product-specs"
+                              style="padding-top: 50px"></div>
+                            <!-- Product Specification -->
+                            <!-- Highlights -->
+                            <div>
+                              128 GB ROM 17.02 cm (6.7 inch) Super Retina XDR
+                              Display 48MP + 12MP + 12MP + 12MP | 12MP Front
+                              Camera A16 Bionic Chip, 6 Core Processor Processor
+                              Warranty: 1 Year Warranty for Phone and 6 Months
+                              Warranty for In-Box Accessories
+                            </div>
+
+                            <div
+                              style="
+                                padding-top: 20px;
+                                list-style: circle;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                              ">
+                              <!-- Seller's -->
+                              <li>Flipart</li>
+                              <li>Amazon</li>
+                              <li>Croma</li>
+                            </div>
+                            <div
+                              class="border-divider"
+                              style="margin-top: 5px"></div>
+                            <div
+                              class="p-product-specs"
+                              style="padding-top: 50px"></div>
+                            <!-- Sim Type -->
+                            <div>Nano Sim + eSIM</div>
+                            <!-- Network type -->
+                            <div class="p-needed">
+                              5G | 4G VoLTE | 4G | UMTS | GSM
+                            </div>
+                            <!-- Battery Capacity -->
+                            <div class="p-needed"></div>
+                            <!-- Sensors -->
+                            <div class="p-needed">
+                              Face ID, LiDAR Scanner, Barometer, High Dynamic
+                              Range Gyro, High-G Accelerometer, Proximity
+                              Sensor, Dual Ambient Light Sensors
+                            </div>
+                            <div
+                              class="border-divider"
+                              style="margin-top: 10px"></div>
+                            <div
+                              class="p-product-specs"
+                              style="padding-top: 50px"></div>
+                            <!-- OS -->
+                            <div>iOS 16</div>
+                            <!-- Processor -->
+                            <div class="p-needed">
+                              A16 Bionic Chip, 6 Core Processor 0 GHz
+                            </div>
+                            <!-- Ram -->
+                            <div style="margin-top: 40px"></div>
+                            <!-- Graphics -->
+                            <div>5 Core, 460</div>
+                            <div
+                              class="border-divider"
+                              style="margin-top: 40px"></div>
+                            <div
+                              class="p-product-specs"
+                              style="padding-top: 50px"></div>
+                            <!-- Primary Camera -->
+                            <div>48 MP</div>
+                            <!-- Front Camera -->
+                            <div class="p-needed">12 MP</div>
+                            <!-- Video Recording -->
+                            <div class="p-needed">
+                              Full HD, Rear Camera: 4K (at 24 fps/ 25 fps/ 30
+                              fps/ 60 fps), 2.8K (at 60 fps), 1080P (at 120
+                              fps/60 fps/30 fps/ 25 fps), 720P (at 30 fps) |
+                              Front Camera: 4K (at 24 fps/ 25 fps/ 30 fps/ 60
+                              fps), 1080P (at 120 fps/60 fps/30 fps/ 25 fps),
+                              240, 120, 60, 30, 25, 24fps
+                            </div>
+                            <div
+                              class="border-divider"
+                              style="margin-top: 10px"></div>
+                            <div
+                              class="p-product-specs"
+                              style="padding-top: 50px"></div>
+                            <!-- Display -->
+                            <!-- Resolution -->
+                            <div class="p-nedded">
+                              Super Retina XDR Display, 2796 x 1290 Pixels
+                            </div>
+                            <!-- Features -->
+                            <div class="p-needed">
+                              Dynamic Island, Always-On Display, Pro Motion
+                              Technology with Adaptive Refresh Rates Upto 120
+                              Hz, HDR Display, True Tone, Wide Colour (P3),
+                              Haptic Touch, Contrast Ratio: 20,00,000:1, Max
+                              Brightness: 1,000 nits, Peak Brightness: 1,600
+                              nits, Peak Brightness (Outdoor): 2,000 nits
+                            </div>
+                            <div
+                              class="border-divider"
+                              style="margin-top: 10px"></div>
+                            <div
+                              class="p-product-specs"
+                              style="padding-top: 50px"></div>
+                            <!-- Internal Memory -->
+                            <div>128 GB</div>
+                            <!-- Expandable Memory -->
+                            <div class="p-nedded p-needed">-</div>
+                            <div
+                              class="border-divider"
+                              style="margin-top: 40px"></div>
+                            <div
+                              class="p-product-specs"
+                              style="padding-top: 50px"></div>
+                            <!-- Wifi -->
+                            <div>WiFi 6 (802.11ax)</div>
+                            <!-- Bluetooth -->
+                            <div class="p-needed">Yes, vv5.3</div>
+                            <!-- OTG -->
+                            <div>Not OTG Compatible</div>
+                            <div
+                              class="border-divider"
+                              style="
+                                margin-top: 40px;
+                                margin-bottom: 40px;
+                              "></div>
+                            <a href="/Sort N Cart/cart.html" style="text-decoration: none">
+                              <div class="view-more-btn">
+                                <button>Add to Cart</button>
+                              </div>
+                            </a>
+                            <a href="/Sort N Cart/sort-n-cart.html" style="text-decoration: none">
+                              <div class="view-more-btn">
+                                <button>Add to Sort N Cart</button>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="multiple-products">
+                  <div class="compare-pro">
+                    <div class="compare-pro-border">
+                      <div class="vertical-compare">
+                        <button class="product-wishlist product-reject">
+                          <svg
+                            width="25"
+                            height="20"
+                            viewBox="0 0 24 24"
+                            style="fill: currentcolor">
+                            <path
+                              d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z"></path>
+                          </svg>
+                        </button>
+                        <a href="#">
+                          <div class="product-img-panel">
+                            <div>
+                              <div
+                                class="pan-img"
+                                style="height: 200px; width: 200px">
+                                <img
+                                  src="/image/product/pro-img/pixel 6a/1.jpeg"
+                                  alt="iPhone 14 Pro Max" />
+                              </div>
+                            </div>
+                          </div>
+                        </a>
+                        <div class="product-details-panel-row">
+                          <div class="broken-rows">
+                            <!-- Product Name -->
+                            <div class="p-product-name">Pixel 6a</div>
+                            <!-- rating -->
+                            <div class="rating-tab">
+                              <p>4.7</p>
+                              <span
+                                ><i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star-half"></i>
+                              </span>
+                            </div>
+                            <!-- pricing -->
+                            <div class="price-block-row">
+                              <div class="old-new-price-row">
+                                <div class="new-price-row">₹29,999</div>
+                                <div class="old-price-row">₹39,000</div>
+                              </div>
+                            </div>
+                            <div class="border-divider"></div>
+                            <div
+                              class="p-product-specs"
+                              style="padding-top: 50px"></div>
+                            <!-- Product Specification -->
+                            <!-- Highlights -->
+                            <div>
+                              128 GB ROM 17.02 cm (6.7 inch) Super Retina XDR
+                              Display 48MP + 12MP + 12MP + 12MP | 12MP Front
+                              Camera A16 Bionic Chip, 6 Core Processor Processor
+                              Warranty: 1 Year Warranty for Phone and 6 Months
+                              Warranty for In-Box Accessories
+                            </div>
+
+                            <div
+                              style="
+                                padding-top: 20px;
+                                list-style: circle;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                              ">
+                              <!-- Seller's -->
+                              <li>Flipart</li>
+                              <li>Amazon</li>
+                              <li>Croma</li>
+                            </div>
+                            <div
+                              class="border-divider"
+                              style="margin-top: 5px"></div>
+                            <div
+                              class="p-product-specs"
+                              style="padding-top: 50px"></div>
+                            <!-- Sim Type -->
+                            <div>Nano Sim + eSIM</div>
+                            <!-- Network type -->
+                            <div class="p-needed">
+                              5G | 4G VoLTE | 4G | UMTS | GSM
+                            </div>
+                            <!-- Battery Capacity -->
+                            <div class="p-needed"></div>
+                            <!-- Sensors -->
+                            <div class="p-needed">
+                              Face ID, LiDAR Scanner, Barometer, High Dynamic
+                              Range Gyro, High-G Accelerometer, Proximity
+                              Sensor, Dual Ambient Light Sensors
+                            </div>
+                            <div
+                              class="border-divider"
+                              style="margin-top: 10px"></div>
+                            <div
+                              class="p-product-specs"
+                              style="padding-top: 50px"></div>
+                            <!-- OS -->
+                            <div>iOS 16</div>
+                            <!-- Processor -->
+                            <div class="p-needed">
+                              A16 Bionic Chip, 6 Core Processor 0 GHz
+                            </div>
+                            <!-- Ram -->
+                            <div style="margin-top: 40px"></div>
+                            <!-- Graphics -->
+                            <div>5 Core, 460</div>
+                            <div
+                              class="border-divider"
+                              style="margin-top: 40px"></div>
+                            <div
+                              class="p-product-specs"
+                              style="padding-top: 50px"></div>
+                            <!-- Primary Camera -->
+                            <div>48 MP</div>
+                            <!-- Front Camera -->
+                            <div class="p-needed">12 MP</div>
+                            <!-- Video Recording -->
+                            <div class="p-needed">
+                              Full HD, Rear Camera: 4K (at 24 fps/ 25 fps/ 30
+                              fps/ 60 fps), 2.8K (at 60 fps), 1080P (at 120
+                              fps/60 fps/30 fps/ 25 fps), 720P (at 30 fps) |
+                              Front Camera: 4K (at 24 fps/ 25 fps/ 30 fps/ 60
+                              fps), 1080P (at 120 fps/60 fps/30 fps/ 25 fps),
+                              240, 120, 60, 30, 25, 24fps
+                            </div>
+                            <div
+                              class="border-divider"
+                              style="margin-top: 10px"></div>
+                            <div
+                              class="p-product-specs"
+                              style="padding-top: 50px"></div>
+                            <!-- Display -->
+                            <!-- Resolution -->
+                            <div class="p-nedded">
+                              Super Retina XDR Display, 2796 x 1290 Pixels
+                            </div>
+                            <!-- Features -->
+                            <div class="p-needed">
+                              Dynamic Island, Always-On Display, Pro Motion
+                              Technology with Adaptive Refresh Rates Upto 120
+                              Hz, HDR Display, True Tone, Wide Colour (P3),
+                              Haptic Touch, Contrast Ratio: 20,00,000:1, Max
+                              Brightness: 1,000 nits, Peak Brightness: 1,600
+                              nits, Peak Brightness (Outdoor): 2,000 nits
+                            </div>
+                            <div
+                              class="border-divider"
+                              style="margin-top: 10px"></div>
+                            <div
+                              class="p-product-specs"
+                              style="padding-top: 50px"></div>
+                            <!-- Internal Memory -->
+                            <div>128 GB</div>
+                            <!-- Expandable Memory -->
+                            <div class="p-nedded p-needed">-</div>
+                            <div
+                              class="border-divider"
+                              style="margin-top: 40px"></div>
+                            <div
+                              class="p-product-specs"
+                              style="padding-top: 50px"></div>
+                            <!-- Wifi -->
+                            <div>WiFi 6 (802.11ax)</div>
+                            <!-- Bluetooth -->
+                            <div class="p-needed">Yes, vv5.3</div>
+                            <!-- OTG -->
+                            <div>Not OTG Compatible</div>
+                            <div
+                              class="border-divider"
+                              style="
+                                margin-top: 40px;
+                                margin-bottom: 40px;
+                              "></div>
+                            <a href="/Sort N Cart/cart.html" style="text-decoration: none">
+                              <div class="view-more-btn">
+                                <button>Add to Cart</button>
+                              </div>
+                            </a>
+                            <a href="/Sort N Cart/sort-n-cart.html" style="text-decoration: none">
+                              <div class="view-more-btn">
+                                <button>Add to Sort N Cart</button>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="/script.js"></script>
+  <script src="/bin/js/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".slide-container", {
+      slidesPerView: 4,
+      spaceBetween: 20,
+      sliderPerGroup: 4,
+      loop: true,
+      centerSlide: "true",
+      fade: "true",
+      grabCursor: "true",
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        dynamicBullets: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+
+      breakpoints: {
+        0: {
+          slidesPerView: 1,
+        },
+        520: {
+          slidesPerView: 2,
+        },
+        768: {
+          slidesPerView: 3,
+        },
+        1000: {
+          slidesPerView: 4,
+        },
+      },
+    });
+  </script>
+</html>

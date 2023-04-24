@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sort N Cart</title>
+    <meta
+      name="description"
+      content="This is a new app developed by Salvin Thilak S, Shaik Mushrath Sulthana and Swapna Vemula" />
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet" />
+    <link rel="shortcut icon" href="/image/png/Google.png" />
+  </head>
+  <body>
+    <div class="Sort N Cart">
+      <div class="navigation-bar">
+        <div class="container-nav">
+          <div class="navbar">
+            <ul>
+              <li class="list">
+                <a href="/Home-page.html">
+                  <span class="icon"><i class="bx bx-home"></i></span>
+                  <span class="text">Home</span>
+                </a>
+              </li>
+              <li class="list">
+                <a href="/Compare/compare.html">
+                  <span class="icon"><i class="bx bx-copy-alt"></i></span>
+                  <span class="text">Compare</span>
+                </a>
+              </li>
+              <li class="list active">
+                <a href="/Sort N Cart/sort-n-cart.html">
+                  <span class="icon"><i class="bx bx-cart-alt"></i></span>
+                  <span class="text">Sort N Cart</span>
+                </a>
+              </li>
+              <li class="list">
+                <a href="/Wishlist/wishlist.html">
+                  <span class="icon"><i class="bx bx-heart"></i></span>
+                  <span class="text">Wishlist</span>
+                </a>
+              </li>
+              <li class="list">
+                <a href="/Login/login.html">
+                  <span class="icon"><i class="bx bx-log-in"></i></span>
+                  <span class="text">Login</span>
+                </a>
+              </li>
+              <div class="indicator"></div>
+              <div class="search">
+                <span class="search-icon"
+                  ><box-icon name="search"></box-icon>
+                  <box-icon name="x"></box-icon
+                ></span>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="line-bar">
+        <div class="ac-group">
+          <ul class="ac-nav">
+            <li><a href="/Sort N Cart/sort-n-cart.html">Sort</a></li>
+            <li>N</li>
+            <li><a href="#" class="cart-now active">Cart</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="empty-order-wrapper">
+        <div class="cart-empty">
+          <div class="cart-empty-media">
+            <img
+              class="img-fluid"
+              src="/image/png//empty-cart.gif"
+              alt="empty cart !"
+              style="height: 300px" />
+          </div>
+          <div class="cart-empty-info">
+            <h5>Don't leave me alone</h5>
+            <p>
+              Use <b>'Sort'</b> Option to get the best product for your personal
+              lifestyle and new in Market
+            </p>
+          </div>
+          <div class="cart-button">
+            <a
+            class="btn-dark-custom btn-dark-custom__empty"
+            href="/wishlist/wishlist.html"
+            >Add from Wishlist</a
+          >
+          <a
+            class="btn-dark-custom btn-dark-custom__empty"
+            href="/Compare/compare.html"
+            >Add from Compare</a
+          >
+          </div>
+        </div>
+      </div>
+
+      <div class="not-empty-wrapper" style="margin-top: 150px;">
+        <div class="compare-all-products">
+          <div class="multi-products">
+            <div>
+              <div class="compare-pro" style="background: none">
+                <div class="compare-pro-border">
+                  <div
+                    class="vertical-compare"
+                    style="display: flex; flex-direction: row">
+                    <div>
+                      <img
+                        src="/image/png/profile-img.png"
+                        alt="Profile Image"
+                        style="height: 100px" />
+                    </div>
+                    <div
+                      style="
+                        display: flex;
+                        align-items: center;
+                        flex-direction: column;
+                        margin-left: 20px;
+                      ">
+                      <p>Hello,</p>
+                      <h3 id="username-copy" style="margin-top: 10px">
+                        UserName
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="compare-pro" style="background: none">
+                <div class="compare-pro-border">
+                  <div class="my-orders">
+                    <a href="/Sort N Cart/Orders.html"
+                      ><h3>My Orders</h3>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="30"
+                        height="30"
+                        viewBox="0 0 24 24"
+                        style="fill: rgba(0, 0, 0, 0.5)">
+                        <path
+                          d="M10.707 17.707 16.414 12l-5.707-5.707-1.414 1.414L13.586 12l-4.293 4.293z"></path>
+                      </svg>
+                    </a>
+                  </div>
+                  <div class="border-divider" style="margin-top: 15px"></div>
+
+                  <div
+                    class="vertical-div"
+                    style="
+                      margin-top: -30px;
+                      padding: 20px;
+                      line-height: 30px;
+                      display: flex;
+                      flex-direction: column;
+                      align-items: flex-start;
+                    ">
+                    <div>
+                      <a href="/Sort N Cart/Address.html">Manage Address</a>
+                    </div>
+                    <div><a href="#">Manage Profile</a></div>
+                    <div><a href="#">Logout</a></div>
+                  </div>
+                  <div class="border-divider" style="margin-top: 15px"></div>
+                  <div
+                    class="vertical-div"
+                    style="
+                      margin-top: -30px;
+                      padding: 20px;
+                      line-height: 30px;
+                      display: flex;
+                      flex-direction: column;
+                      align-items: flex-start;
+                    ">
+                    <div>
+                      <a href="/Compare/compare.html">Compare Products</a>
+                    </div>
+                    <div>
+                      <a href="/Sort N Cart/sort-n-cart.html">Sort N Cart</a>
+                    </div>
+                    <div></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="wishlist-list" id="cart-now">
+            <div>
+              <div style="width: 100%">
+                <div class="product-panel-viwer">
+                  <a href="https://www.flipkart.com/apple-iphone-14-pro-deep-purple-128-gb/p/itm75f73f63239fa?pid=MOBGHWFHYGAZRWFT&lid=LSTMOBGHWFHYGAZRWFTJTZIDA&marketplace=FLIPKART&cmpid=content_mobile_15083003945_u_8965229628_gmc_pla&tgi=sem,1,G,11214002,u,,,556262839325,,,,c,,,,,,,&gclid=CjwKCAiA3KefBhByEiwAi2LDHAnYhedpHzG882xZm1qRaRulYjyvQ1VzEK4l9ZD9SQTiqk_053M-EBoCaBYQAvD_BwE" class="panel">
+                    <div class="product-img-panel row">
+                      <div class="panel-img">
+                        <div>
+                          <button
+                            class="product-wishlist product-reject"
+                            style="position: absolute; left: 0px; top: 0px">
+                            <svg
+                              width="25"
+                              height="20"
+                              viewBox="0 0 24 24"
+                              style="fill: currentcolor"
+                              id="color-now">
+                              <path
+                                d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z"></path>
+                            </svg>
+                          </button>
+                          <div
+                            class="pan-img"
+                            style="height: 200px; width: 200px">
+                            <img
+                              src="/image/product/pro-img/iphone 14pro/1.jpg"
+                              alt="iPhone 14 Pro Max" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="product-details-panel">
+                      <div class="col col-7-12">
+                        <div class="p-product-name">iPhone 14 Pro Max</div>
+                        <div class="rating-tab">
+                          <p>4.7</p>
+                          <span
+                            ><i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star-half"></i>
+                          </span>
+                        </div>
+                        <div class="p-product-specs">
+                          <ul>
+                            <li class="p-about">A16 Bionic chip</li>
+                            <li class="p-about">
+                              15.54 cm | 6.1 inch | OLED display
+                            </li>
+                            <li class="p-about">48MP + 12MP + 12MP | 12MP</li>
+                            <li class="p-about">iOS 16</li>
+                            <li class="p-about">1 Year Warranty</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="p-price-tag col col-5-12">
+                        <div class="price-block">
+                          <div class="old-new-price">
+                            <div class="new-price">₹1,23,000</div>
+                            <div class="old-price">₹1,89,000</div>
+                          </div>
+                        </div>
+                        <div class="p-offer">
+                          <div
+                            class="p-price-offer"
+                            style="
+                              padding-right: 0.5em;
+                              color: rgb(0, 0, 0);
+                              font-size: 14px;
+                              font-style: normal;
+                              font-weight: 400;
+                            ">
+                            Upto
+                          </div>
+                          <div
+                            class="p-price"
+                            style="
+                              padding-right: 0.5em;
+                              color: rgb(0, 0, 0);
+                              font-size: 14px;
+                              font-style: normal;
+                              font-weight: 700;
+                            ">
+                            ₹20,000
+                          </div>
+                          <div
+                            class="p-price"
+                            style="
+                              padding-right: 0.5em;
+                              color: rgb(0, 0, 0);
+                              font-size: 14px;
+                              font-style: normal;
+                              font-weight: 400;
+                            ">
+                            Off on Exchange
+                          </div>
+                        </div>
+                        <div class="p-bank">
+                          <div class="-bank-tag">
+                            <div
+                              class="p-bank-offer"
+                              style="
+                                color: rgb(38, 165, 65);
+                                font-size: 14px;
+                                font-weight: 700;
+                              ">
+                              Bank Offer
+                            </div>
+                          </div>
+                        </div>
+                        <div class="view-more-btn">
+                          <button>BUY NOW</button>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="/script.js"></script>
+</html>
